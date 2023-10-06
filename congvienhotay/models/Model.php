@@ -6,6 +6,7 @@ class Model
     public $conn;
     public function __construct()
     {
+        // Them comment
         $this->conn = new mysqli("", "", "", "")  or die("Ket noi that bai");
         $this->conn->set_charset("UTF8");
     }
