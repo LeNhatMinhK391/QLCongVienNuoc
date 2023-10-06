@@ -1,7 +1,7 @@
 <?php
     $role = $_GET["role"]; 
     if(!isset($role)) {
-        
+        //new
         header('Location: ?role=user');
     }else {
         if($role == "admin") {
